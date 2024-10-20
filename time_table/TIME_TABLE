@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable</title>
+    <style>
+       
+        table{
+            width:100%;
+            border:2px solid black;
+         }
+         th,td{
+            border: 2px solid black;
+            padding:10px;
+            
+         }
+         td:hover {
+                color: black;
+                background-color: skyblue;
+                }
+        a{
+            text-decoration: none; 
+            color: black;    }
+
+       
+    </style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th colspan="10">Timetable</th>
+        </tr>
+        <tr>
+            <th rowspan="7">Hours</th>
+        </tr>
+        <tr>
+            <th colspan="2">Mon</th>
+            <th colspan="2">Tue</th>
+            <th colspan="2">Wed</th>
+            <th colspan="2">Thu</th>
+            <th colspan="2">Fri</th>
+        </tr>
+        <tr>
+            <td colspan="2" ><a href="teacher_info.html">Science</a></td></a>
+            <td colspan="2"><a href="teacher_info.html">Maths</td></a>
+            <td colspan="2"><a href="teacher_info.html">Science</td></a>
+            <td colspan="2"><a href="teacher_info.html">Maths</td></a>
+            <td colspan="2"><a href="teacher_info.html">Arts</td></a>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="teacher_info.html">Social</td></a>
+            <td colspan="2"><a href="teacher_info.html">Hindi</td></a>
+            <td colspan="2"><a href="teacher_info.html">English</td></a>
+            <td colspan="2"><a href="teacher_info.html">Social</td></a>
+            <td colspan="2"><a href="teacher_info.html">Sports</td></a>
+        </tr>
+        <tr>
+            <th colspan="10">Lunch</th>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="teacher_info.html">Science</td></a>
+            <td colspan="2"><a href="teacher_info.html">Maths</td></a>
+            <td colspan="2"><a href="teacher_info.html">Science</td></a>
+            <td colspan="2"><a href="teacher_info.html">Maths</td></a>
+            <td colspan="2" rowspan="2"><a href="teacher_info.html">Project</td></a>
+        </tr>
+        <tr>
+            <td colspan="2"><a href="teacher_info.html">Social</td></a>
+            <td colspan="2"><a href="teacher_info.html">Hindi</td></a>
+            <td colspan="2"><a href="teacher_info.html">English</td></a>
+            <td colspan="2"><a href="teacher_info.html">Social</td></a>
+        </tr>
+    </table>
+</body>
+</html>
